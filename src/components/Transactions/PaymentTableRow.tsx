@@ -12,3 +12,4 @@ const PaymentTableRow = (props: PaymentType) : JSX.Element => {
 };
 
 export default PaymentTableRow;
+

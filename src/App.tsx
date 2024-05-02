@@ -18,6 +18,7 @@ function App() : JSX.Element  {
                 } />
                 <Route path="/add" element={ <NewTransaction /> } />
                 <Route path="/" element={<h1>Payments system</h1>} /> 
+                <Route path="*" element={<h1>Page not found</h1>} /> 
             </Routes>
         </BrowserRouter>
     );
